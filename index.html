@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>useState va Component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+   
+   <div class="card">
+    <h1>React</h1>
+    <p>ReactJS - bu Facebook tomonidan ishlab chiqilgan va hozirda ochiq manbali loyiha sifatida saqlanadigan JavaScript kutubxonasi. ReactJS foydalanuvchi interfeyslarini (UI) yaratish uchun ishlatiladi, xususan, bir sahifali ilovalar (SPA - Single Page Applications) va mobil ilovalar uchun.</p>
+    <img src="https://miro.medium.com/v2/resize:fit:700/1*dLaDL-lSN0iprzmOpmM7zQ.png" alt="">
+    <h2>useState bu-...</h2>
+    <p> bu React kutubxonasidagi asosiy xook (hook)lardan biridir. React - bu foydalanuvchi interfeysi (UI) komponentlarini yaratish uchun JavaScript kutubxonasi. useState xooki komponentning ichki holatini (state) saqlash va boshqarish imkonini beradi.</p>
+    
+    <span>useState ishlatish uchun, avvalo, React kutubxonasidan import qilinadi:</span>
+    <img src="./imgs/Screenshot_1.png" alt="">
+
+    <p>Keyin useState xooki foydalaniladi. Bu funksiya komponentning ichki holatini o'zgartiradigan ikkita qiymatni qaytaradi: birinchisi, holatning hozirgi qiymati; ikkinchisi, ushbu holatni o'zgartirish uchun foydalaniladigan funksiya.</p>
+    <img src="./imgs/Screenshot_2.png" alt="">
+    <p>Ushbu misolda, count boshlang'ich qiymati 0 bo'lgan holatni ifodalaydi. setCount esa count qiymatini yangilash uchun ishlatiladi. Har safar Oshirish tugmasi bosilganda, setCount chaqiriladi va count qiymati bittaga oshiriladi.</p>
+   
+   
+    <h2>Component</h2>
+    <p>React-da komponentlar foydalanuvchi interfeysini (UI) bo'laklarga ajratish va har bir bo'lakni alohida mustaqil qismlar sifatida ishlatish imkonini beradi. Komponentlar UI'ni tuzishning asosiy bloklari bo'lib, ular boshqa komponentlar bilan birgalikda katta va murakkab interfeyslarni boshqarishni osonlashtiradi.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTT55HCB-pyNPyuoXKQIRhctIOURHMT74jlQ&s" alt="">
+    <h3>Komponentlar turlari</h3>
+    <p><b>Funksional komponentlar:</b>
+        Funksional komponentlar oddiy JavaScript funksiyalari bo'lib, ular props deb ataladigan parametrlar qabul qiladi va JSX (JavaScript XML) shaklida UI elementlarini qaytaradi. Bu komponentlar holat (state) yoki React xooklaridan foydalanishi mumkin</p>
+        <img src="./imgs/Screenshot_3.png" alt="">
+
+        <p><b>Sinflar (Class) komponentlar:</b>
+            Sinflar komponentlar React.Component sinfidan meros oladi va render metodini o'z ichiga oladi, u UI ni JSX formatida qaytaradi. Sinflar komponentlar o'z holatini (state) va hayotiy tsikl usullarini (lifecycle methods) boshqarishi mumkin, masalan componentDidMount, componentDidUpdate, va componentWillUnmount.</p>
+            <img src="./imgs/Screenshot_4.png" alt="">
+   </div>
+
+   </header>
+    <script src="script.js"></script>
+</body>
+</html>
